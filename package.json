@@ -13,6 +13,6 @@
   "author": "viswanathan",
   "license": "ISC",
   "dependencies": {
-    "micro-bot": "^2.5.3",
+    "micro-bot": "^2.5.3"
       }
 }
