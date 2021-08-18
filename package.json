@@ -1,7 +1,7 @@
 {
   "name": "jbot",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node based anime scraper",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,6 +13,11 @@
   "author": "viswanathan",
   "license": "ISC",
   "dependencies": {
-    "telegraf": "^4.4.1"
+    "micro-bot": "^2.5.3",
+    
+  }
+  "main": "app.js",
+  "scripts": {
+  "start": "micro-bot"
   }
 }

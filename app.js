@@ -1,5 +1,5 @@
-const { Telegraf } = require('telegraf')
-const bot = new Telegraf('1965130438:AAGkJt0f_WFAn3LN_N8X_xTvGNHsVPJinKk');
+const { Composer } = require('micro-bot')
+const bot = new Composer('1965130438:AAGkJt0f_WFAn3LN_N8X_xTvGNHsVPJinKk');
 
 bot.command('start', ctx => {
     console.log(ctx.from)
@@ -52,4 +52,4 @@ const requestLocationKeyboard = {
 
 }
 
-bot.launch();
+module.exports = bot
