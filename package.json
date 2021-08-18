@@ -2,9 +2,9 @@
   "name": "jbot",
   "version": "1.0.0",
   "description": "Node based anime scraper",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "micro-bot"
   },
   "repository": {
     "type": "git",
@@ -14,10 +14,5 @@
   "license": "ISC",
   "dependencies": {
     "micro-bot": "^2.5.3",
-    
-  },
-  "main": "app.js",
-  "scripts": {
-  "start": "micro-bot"
-  }
+      }
 }
